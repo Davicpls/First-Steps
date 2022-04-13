@@ -1,0 +1,5 @@
+nome = str(input('Escreva uma frase: '))
+nome = nome.upper()
+print('A sua frase contém {} letras "A"'.format(nome.count('A')))
+print('A letra A aparecerá a primeira vez na posição {}'.format(nome.find('A')))
+print('A letra A aparecerá a última vez na posição {}'.format(nome.rfind('A')))

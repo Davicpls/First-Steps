@@ -1,0 +1,8 @@
+nome = (input('Digite algo: '))
+print('O tipo primitivo é: ', type(nome))
+print('O tipo é numérico?: ', nome.isnumeric())
+print('O tipo é alphanumérico?: ', nome.isalnum())
+print('O tipo é alpha?: ', nome.isalpha())
+print('O tipo é minúsculo?:', nome.islower())
+print('O tipo é maiúsculo?:', nome.isupper())
+print('O tipo está capitalizado?: ', nome.istitle())
